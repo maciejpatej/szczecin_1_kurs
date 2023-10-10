@@ -10,3 +10,12 @@ primes.add(43)
 primes.add(11)
 primes.add(43)
 print(primes)
+
+names1 = {'Tomek', 'Adam', "Krzysztof"}
+names2 = {'Tomek', 'Adam', "Jacka", "Tomek", "Andrzej"}
+
+print(names1.difference(names2))
+print(names2.difference(names1))  # -
+print(names1.intersection(names2))  # &
+print(names1 | names2) # suma
+print(names2.discard('adam'))
