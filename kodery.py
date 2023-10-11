@@ -33,3 +33,42 @@ import pathlib as path
 
 for filename in path.Path('').glob('*.txt'):
     print(filename)
+
+
+def countdown2(n):
+    while n > 0:
+        yield print(f'T-minus {n}\n')
+        n -= 1
+    yield print('Start!\n')
+
+
+for _ in countdown2(5):
+    pass
+
+# for x in countdown2(5):
+#     print("Robie zapis do bazy....")
+
+def counter(start=0):
+    n = start
+    while True:
+        result = yield n
+        print(n)
+        if n == 100:
+            break
+        if result == 'q':
+            break
+        n += 1
+
+c = counter()
+next(c)
+print("coś tu innego robię..")
+next(c)
+next(c)
+print("coś tu innego robię..")
+print("coś tu innego robię..")
+next(c)
+for _ in counter(5):
+    pass
+next(c)
+next(c)
+c.send('q')
