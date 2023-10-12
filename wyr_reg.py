@@ -14,3 +14,4 @@ if len(lista_wyn) > 0:
         print(f'Dopasowano: {w.group()}, początek: {w.start()}, koniec: {w.end()}')
 else:
     print(wynik)
+print(re.split(r' ', tekst))
