@@ -5,9 +5,13 @@ class Human:
 
     def idz_do_roboty(self):
         kasa = 0
-        for k in range(5):
+        for _ in range(5):
             kasa += 10
-        print(f"Zarobione {kasa} $$$")
+        print(f"Zarobione {kasa} $$$ przez {self.imie}")
+        return kasa
+
+    def stan_konta(self):
+        pass
 
 
 czlowiek1 = Human()
@@ -26,5 +30,9 @@ czlowiek2.idz_do_roboty()
 print(czlowiek2.imie)
 print(czlowiek2.wzrost)
 print(czlowiek2.plec)
-
+marta_konto = czlowiek2.idz_do_roboty()
+tomek_konto = czlowiek1.idz_do_roboty()
+print(marta_konto)
+print(tomek_konto)
 print(id(czlowiek1), id(czlowiek2))
+print("Razem mają na koncie:", marta_konto + tomek_konto)
