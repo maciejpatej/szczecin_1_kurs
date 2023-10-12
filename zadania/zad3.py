@@ -17,12 +17,12 @@ która usuwa osobę o podanym imieniu z bazy danych
 
 
 def add_person(name, age):
-    with open('database.txt', 'a') as file:
+    with open('../database.txt', 'a') as file:
         file.write(f'{name}, {age}\n')
 
 
 def get_age(name):
-    with open('database.txt', 'r') as file:
+    with open('../database.txt', 'r') as file:
         lines = file.readlines()
         for line in lines:
             person_name, person_age = line.strip().split(',')
