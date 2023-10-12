@@ -22,10 +22,10 @@ def ksero_mono_dom_duo(tekst='duo ', ilosc=1):
     return tekst * ilosc
 
 
-print(nicCiekawego())
-print(ksero())
-print(ksero_kolorowe(4))
-print(ksero_mono('tomek ', 6))
-print(ksero_mono_dom('domek ', 2))
-print(ksero_mono_dom('chatka '))
-print(ksero_mono_dom_duo(ilosc=5))
+# print(nicCiekawego())
+# print(ksero())
+# print(ksero_kolorowe(4))
+# print(ksero_mono('tomek ', 6))
+# print(ksero_mono_dom('domek ', 2))
+# print(ksero_mono_dom('chatka '))
+# print(ksero_mono_dom_duo(ilosc=5))
