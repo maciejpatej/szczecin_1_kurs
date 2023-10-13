@@ -2,6 +2,10 @@ from abc import ABC, abstractmethod
 
 # link do rejestracji na webinar 17.10.2023 godz. 18:00
 # https://www.linkedin.com/events/bezp-atnywebinar-analizadanychw7118264323302420480
+# link do kursów video:
+# https://drive.google.com/drive/folders/1ritu8EAfMjt4-Z25ldtFiSxsk5yZLXOl?usp=drive_link
+# link do dysku proton:
+# https://drive.proton.me/urls/PJRGH44FQR#mpvUKQFS3MKf
 
 
 class Ksztalt(ABC):
