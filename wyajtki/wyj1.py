@@ -11,6 +11,14 @@ def mnozenie2(a, b):
     except Exception as e:
         return f"błędnie podane dane, wystąpił błąd: {e.args}"
 
+def mnozenie3(a, b):
+    try:
+        return int(a) * int(b)
+    except TypeError:
+        return "błędnie podane dane, wystąpił błąd typu"
+    except ValueError:
+        return 0
+
 
 # print(mnozenie(2, 2))
 # print(mnozenie(2, '2'))
