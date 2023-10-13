@@ -1,5 +1,8 @@
 from abc import ABC, abstractmethod
 
+# link do rejestracji na webinar 17.10.2023 godz. 18:00
+# https://www.linkedin.com/events/bezp-atnywebinar-analizadanychw7118264323302420480
+
 
 class Ksztalt(ABC):
 
