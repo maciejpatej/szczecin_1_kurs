@@ -7,7 +7,10 @@ czlowiek3.idz_do_roboty()
 
 print(f1.ksero())
 
-ptak1 = kury.Ptak('orzeł bielik', 100)
+ptak1 = kury.Orzel('orzeł bielik', 100)
 ptak1.lataj()
-ptak2 = kury.Kura("kura brojler", 1)
+ptak1.wydaj_odglos()
+ptak2 = kury.Kura("kura nioska", 1)
 ptak2.lataj()
+ptak2.produkcja_jaja(5)
+ptak2.wydaj_odglos()
