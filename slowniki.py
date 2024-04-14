@@ -9,3 +9,4 @@ slownik['a3'] = [5, 6, 7]
 print(slownik)
 print(slownik['a3'][1])
 print("Jesli to czytasz, to mam nadzieje, ze czytasz to w Jenkinsie")
+print("11111111")
